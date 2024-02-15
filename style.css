@@ -1,12 +1,37 @@
+
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #26986c; /* Changed background color to blue */
+    background-color: #ffffff; /* Changed background color to blue */
     margin: 0;
+    padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 100%;
     color: #fff; /* Set font color to white */
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.image-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-container img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.login-container {
+    flex: 1;
 }
 
 .login-bar {
@@ -14,14 +39,11 @@ body {
     border-radius: 8px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     padding: 20px;
-    width: 350px;
+    width: 300px;
     text-align: center;
 }
 
 .login-bar h2 {
-    color: #fff;
-    font-style: inherits;
-
     margin-bottom: 10px;
 }
 
@@ -33,7 +55,7 @@ body {
     display: block;
     font-size: 14px;
     text-align: left;
-    margin-bottom: 10sspx;
+    margin-bottom: 10px;
 }
 
 .input-group input {
@@ -51,7 +73,7 @@ body {
 }
 
 .login-btn {
-    background-color: #227dba;
+    background-color: #067d71;
     color: #fff;
     padding: 10px 25px;
     width: 100%;
@@ -60,9 +82,7 @@ body {
     cursor: pointer;
     font-size: 16px;
     margin-top: 5px;
-    display: block; /* Center the button */
-    margin: 0 auto ; 
-    
+    margin-bottom:0px;
 }
 
 .login-btn:hover {
@@ -73,21 +93,21 @@ body {
     font-size: 14px;
     color: #fff;
     text-decoration: underline;
-    margin-bottom: 15px;
+    margin-bottom: 50px;
     display: inline-block;
     float: right;
-    margin-top: 11px;
-  
+    margin-top: 5px;
 }
 
 .keep-logged-in {
     font-size: 14px;
     color: #fff;
     text-decoration: underline;
-    margin-top: 0px;
+    margin-top: 1px;
     display: inline-block;
     float: left;
-    margin-bottom: 10px;
-    
-    
+    margin-bottom: 30px;
 }
+
+
+
