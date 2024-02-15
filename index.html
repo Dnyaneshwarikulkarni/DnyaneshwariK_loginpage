@@ -1,41 +1,39 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login Bar</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    
-    
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     
-<div class="login-bar">
-        <h2>Login Authentication</h2>
-        <p>A Web Development Task by Devtern</p>
-        <form method="post" action="login1.php">
-            <div class="input-group">
-                <label for="username">Username </label>
-                <input type="text" id="username" name="username" placeholder="Enter your username " required>
-            </div>
-
-            <div class="input-group">
-            
-                <label for="password">Password</label>
-                <input type="password" id="password" name="password" placeholder="Enter your password" required>
+    <div class="container">
+        <div class="image-container">
+            <img src="https://img.freepik.com/free-vector/mobile-login-concept-illustration_114360-135.jpg?w=740&t=st=1707974741~exp=1707975341~hmac=76d8360d0dcc750c7d841a7f41278f5219c7eb674a3db556c844fa04fa1a4288" alt="Login Image">
+        </div>
+        <div class="login-container">
+            <div class="login-bar">
+                <h2>Login Authentication</h2>
+                <p>A Web Development Task by Devtern</p>
+                 <form method="post" action="login1.php"> 
+                
+                <div class="input-group">
+                    <label for="username">Username</label>
+                    <input type="text" id="username" name="username" placeholder="Enter your username" required>
+                </div>
+                <div class="input-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" placeholder="Enter your password" required>
+                </div>
+                <label for="keep-logged-in" class="keep-logged-in"><input type="checkbox" id="keep-logged-in">Keep me logged in</label>
                 <a href="#" class="forgot-password">Forgot Password?</a>
+                <button type="submit" class="login-btn" name="login_btn">Login</button>
+            </form>
             </div>
-            <label class="keep-logged-in">
-                <input type="checkbox"> Keep me logged in
-            </label>
-
-            <button type="submit" class="login-btn" class="login-btn" name="login_btn">Login</button>
-
-            
-        </form>
+        </div>
     </div>
-    
-    
 </body>
 </html>
 
